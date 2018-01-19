@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FidgetMyBells</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fidget spinner. What u expect?">
+    <meta property="og:site_name" content="FidgetMyBells">
+    <meta property="og:url" content="http://ffffidget.com/img/share.png">
+    <meta property="og:image" content="http://ffffidget.com/img/share.png">
+    <meta property="og:title" content="FidgetMyBells">
+    <meta property="og:description" content="A fidget spinner. What u expect?">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FidgetMyBells">
+    <meta name="twitter:creator" content="@verysexypika">
+    <meta name="twitter:description" content="A fidget spinner. What u expect?">
+    <meta name="twitter:image" content="http://ffffidget.com/img/share.png">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="/images/fidgetspinner/spinner.png"/>
+    <link href="styles.css" media="all" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="bg">
+    </div>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Warning!</strong> Spinning may cause you to have seizures because of the background rapidly changing color when spun fast.
+</div>
+  <style>
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+</style>
+
+    <div class="everything">
+        <div class="holder">
+            <div class="spinner">
+                <img src="http://ffffidget.com/img/spinner.png">
+            </div>
+            <div class="handle">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bundle.js">
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-147514-41', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
